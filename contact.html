@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- My navigation pane  -->
+     <header>
+        <h1>Altschool HTML Assignment</h1>
+        <nav id="nav1">
+            <figure>
+                <img src="./assets/download.png" alt="bg img">
+            </figure>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./form.html">Altschool Registration form</a> </li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="https://altschoolafrica.com" target="_blank">More Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- the main content of my page -->
+    <main>
+        <div>
+            <h2>Contact us</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name" placeholder ="Enter your fullname here" required>
+                <br>
+                <br>    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Enter your email here" required>
+                <br>
+                <br>    
+            <label for="Message">Message:</label><br>
+            <textarea id="Message" placeholder="Enter your message here, Mininum of 50 words and maximum of 500 words" maxlength="500 words" minlength="50 words" rows="10" required></textarea>
+            <br>
+            <br>
+            <label for="priority">Priority:</label><br>
+            <select id="priority" placeholder="select" required>
+                <option>select</option>
+                <option>Urgent</option>
+                <option>Very urgent</option>
+                <option>Normal</option>
+                <option>Not too urgent</option>
+                <option>Can wait</option>
+                
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </div> 
+        </form>
+        <br>
+        <button>
+          Sponsor Us
+        </button>
+    </br>
+    <br>
+        <section>
+        <a href="mailto:oluwayemioluwasesan@gmail.com">Email us directly</a>
+        <br>
+        <br>
+        <a href="callto:+2348125977708">Call us directly</a>
+        <br>
+        <br>
+        <a href="https://api.whatsapp.com/send?phone=2348125977708">Chat with us on Whats app</a>
+        <br>
+        <br>
+        <
+        </section>
+<br>
+<br>
+    </main>
+</body>
+
+<!-- my footer/signature -->
+<footer id="footer">
+    &copy Oct 2023, Oluwasesan's pure-html exercise
+</footer>
+</html>
